@@ -1,10 +1,10 @@
-# UIntExtend
+# UnsignedIntegerExtendType
 Given a UInt64 create a new UInt128 type, given UInt128 create UInt256, etc.
 
 Example usage:
 
-    typealias UInt128 = UIntExtend<UInt64>
-    typealias UInt256 = UIntExtend<UInt128>
+    typealias UInt128 = UnsignedIntegerExtendType<UInt64>
+    typealias UInt256 = UnsignedIntegerExtendType<UInt128>
     ...
 
 # Known Issues

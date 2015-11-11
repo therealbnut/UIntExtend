@@ -1,15 +1,15 @@
 //
-//  UIntExtendTests.swift
-//  UIntExtendTests
+//  IntegerExtendTypeTests.swift
+//  IntegerExtendTypeTests
 //
 //  Created by Andrew Bennett on 7/11/2015.
 //  Copyright © 2015 TeamBnut. All rights reserved.
 //
 
 import XCTest
-@testable import UIntExtend
+@testable import UnsignedIntegerExtendType
 
-class UIntExtendTests: XCTestCase {
+class IntegerExtendTypeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
